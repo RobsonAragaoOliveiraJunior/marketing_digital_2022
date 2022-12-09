@@ -1,0 +1,28 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+}
+a {
+    background-color: darkred;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: salmon;
+}
+a.active{
+    background-color: lightcoral;
+}
+input{
+    width: 175px;
+    font-size: 18px;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
